@@ -43,9 +43,10 @@ NSObject는 인스턴스 변수로 **isa**라는 Class 타입의 변수 하�
 
 ### <실제 테스트>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4db1ea3f-da0c-4b07-a7b5-b910a33f8460/Untitled.png)
+![ㅂ](https://github.com/110w110/Objective-C-Study/assets/87888411/c7f1693e-ca66-418e-b2a8-a7f08cf89470)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f46746df-6a48-47d2-bbaa-479cec3a2181/Untitled.png)
+
+![ㅈ](https://github.com/110w110/Objective-C-Study/assets/87888411/a7cf4e1c-48b3-4a8a-8ac6-0245543389f0)
 
 ## **인스턴스 생성과 해제**
 
@@ -76,11 +77,11 @@ NSObject는 인스턴스 변수로 **isa**라는 Class 타입의 변수 하�
 
 ---
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f97869db-6f02-4f8f-acae-7f97faf456d1/Untitled.png)
+![ㄷ](https://github.com/110w110/Objective-C-Study/assets/87888411/9b653b91-ed7c-44d7-a4ee-2ec856b551a9)
 
 ### <실제 테스트>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c73d7c6d-13d3-49c5-8453-b08495a4caeb/Untitled.png)
+![ㄱ](https://github.com/110w110/Objective-C-Study/assets/87888411/e575eb55-779d-478c-a271-3f49e11357ab)
 
 ARC의 등장과 GC의 지원 중단으로 인해 직접 호출하는 메서드는 alloc을 쓰거나 dealloc을 오버라이드 하는 경우 밖에 없다.
 
@@ -107,9 +108,9 @@ ARC의 등장과 GC의 지원 중단으로 인해 직접 호출하는 메서드�
 
 ### <실제 테스트>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/57ee881a-9e21-4d37-9161-239725995273/Untitled.png)
+![ㅁ](https://github.com/110w110/Objective-C-Study/assets/87888411/d7867763-2d93-4fdd-a7e3-f15cda645066)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/34d797a9-49a6-4c26-8331-9899638919b5/Untitled.png)
+![ㄴ](https://github.com/110w110/Objective-C-Study/assets/87888411/8ee21e45-1b16-4417-a21d-9d0fdb2306ad)
 
 initialize 메서드를 직접 호출하면 안된다고 되어 있으나 실제로 컴파일과 런타임에서 오류가 발생하지는 않았다.
 
@@ -169,9 +170,9 @@ NSObject에서는 아래와 같은 메서드를 제공한다.
 
 ### <실제 테스트>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6445d118-3de3-4ebe-8600-61aa8d4b79f0/Untitled.png)
+![ㅇ](https://github.com/110w110/Objective-C-Study/assets/87888411/46c7171c-fd53-4874-9148-4cd0b09fb0ba)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5bf3c7e6-7440-49c7-9494-721a688e127e/Untitled.png)
+![ㄹ](https://github.com/110w110/Objective-C-Study/assets/87888411/307d38b9-61d2-4064-a721-213b88db9156)
 
 위와 같이 작성되면 동일하게 작동됨을 확인할 수 있다.
 
@@ -226,13 +227,14 @@ if ([date intValue] % 2 == 0) {
 
 ---
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d9b6ca3-48b8-4018-bc5e-a3d5c964da7c/Untitled.png)
+![ㅋ](https://github.com/110w110/Objective-C-Study/assets/87888411/1a688973-f79c-43f4-b559-23b168263456)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6fe695cd-1c85-4919-8224-c83f208c3c01/Untitled.png)
+![ㅌ](https://github.com/110w110/Objective-C-Study/assets/87888411/1a4b267f-1d10-440e-9b10-a6d057f0ef6a)
+
 
 하지만 이런 방식의 설계는 **ARC 체제 아래에서 메모리 관리에 대한 리스크**가 있다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2de5a482-56a4-4f8c-966b-f81777a3e8cf/Untitled.png)
+![ㅊ](https://github.com/110w110/Objective-C-Study/assets/87888411/b4b31285-c764-4a4c-ba0d-1151b4cc875b)
 
 컴파일러는 해당하는 메서드를 실행할 때 반환되는 객체를 해제해도 되는지 알 수 없기 때문에 직접 해제하지 않아서 메모리 누수가 발생할 수 있음을 경고로 나타내고 있다.
 
