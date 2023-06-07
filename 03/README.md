@@ -160,23 +160,18 @@ id pool = [[NSAutoreleasePool alloc] init];
 
 - 강한 참조로 발생한 순환 참조
 
-!https://i.imgur.com/B44dV2w.png
+![1](https://github.com/110w110/Objective-C-Study/assets/87888411/7189d413-6f61-4913-8394-97d6c17889e1)
+![2](https://github.com/110w110/Objective-C-Study/assets/87888411/e58c44c6-7865-4f2f-9245-0b99e05e1981)
+![3](https://github.com/110w110/Objective-C-Study/assets/87888411/eb2901b5-da37-438d-afa7-48bee670879e)
 
-!https://i.imgur.com/v6UCP2w.png
-
-!https://i.imgur.com/Nj91NSm.png
 
 - 약한 참조로 해결
 
-!https://i.imgur.com/GzIltmv.png
-
-!https://i.imgur.com/zlaaIN5.png
-
-!https://i.imgur.com/ziLfy7i.png
-
-!https://i.imgur.com/hX3ftV2.png
-
-!https://i.imgur.com/ZfnsfJ8.png
+![4](https://github.com/110w110/Objective-C-Study/assets/87888411/55fcf638-51d2-449c-93ec-ceadd6abe1ac)
+![5](https://github.com/110w110/Objective-C-Study/assets/87888411/08a3b7ad-f6d5-4fb8-a9be-a596d969bcaf)
+![6](https://github.com/110w110/Objective-C-Study/assets/87888411/58909b98-3f62-4c83-a865-fc29e37fd55c)
+![7](https://github.com/110w110/Objective-C-Study/assets/87888411/48099c61-cb0e-4bf0-b976-c784ac8f05bc)
+![8](https://github.com/110w110/Objective-C-Study/assets/87888411/36c966e3-616b-4c0d-a98f-5f012465dbff)
 
 ## **ARC (Auto Reference Counting)**
 
